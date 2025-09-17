@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Furni-Hub | Products</title>
+  <link rel="stylesheet" href="product.css">
+</head>
+<body>
+  <header>
+    <h1>🛋 Furni-Hub</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="product.html" class="active">Products</a>
+      <a href="offers.html">Offers</a>
+      <a href="contact.html">Contact</a>
+      <a href="login.html">Login</a>
+      <a href="cart.html">Cart 🛒 <span id="cart-count">0</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Our Products</h2>
+    <div class="products-grid">
+      <div class="product-card">
+        <img src="assets/sofa1.png" alt="Sofa">
+        <h3>Luxury Sofa</h3>
+        <p>₹25,000</p>
+        <button onclick="addToCart('Luxury Sofa', 25000)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="assets/chair1.png" alt="Chair">
+        <h3>Comfort Chair</h3>
+        <p>₹7,500</p>
+        <button onclick="addToCart('Comfort Chair', 7500)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="assets/table1.png" alt="Table">
+        <h3>Dining Table</h3>
+        <p>₹18,000</p>
+        <button onclick="addToCart('Dining Table', 18000)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="assets/bed1.png" alt="Bed">
+        <h3>King Size Bed</h3>
+        <p>₹40,000</p>
+        <button onclick="addToCart('King Size Bed', 40000)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="assets/bookshelf.jpg" alt="Bookshelf">
+        <h3>Wooden Bookshelf</h3>
+        <p>₹6,000</p>
+        <button onclick="addToCart('Wooden Bookshelf', 6000)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="assets/wardrobe.png" alt="Wardrobe">
+        <h3>Classic Wardrobe</h3>
+        <p>₹22,000</p>
+        <button onclick="addToCart('Classic Wardrobe', 22000)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="assets/stool.jpg" alt="Stool">
+        <h3>Modern Stool</h3>
+        <p>₹2,500</p>
+        <button onclick="addToCart('Modern Stool', 2500)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="assets/lamp.png" alt="Lamp">
+        <h3>Floor Lamp</h3>
+        <p>₹3,200</p>
+        <button onclick="addToCart('Floor Lamp', 3200)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="assets/cabinet.jpg" alt="Cabinet">
+        <h3>Storage Cabinet</h3>
+        <p>₹12,000</p>
+        <button onclick="addToCart('Storage Cabinet', 12000)">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="assets/desk.png" alt="Desk">
+        <h3>Office Desk</h3>
+        <p>₹15,500</p>
+        <button onclick="addToCart('Office Desk', 15500)">Add to Cart</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Furni-Hub. All Rights Reserved.</p>
+    <div class="footer-links">
+      <a href="about.html">About</a> |
+      <a href="offers.html">Offers</a> |
+      <a href="contact.html">Contact</a>
+    </div>
+  </footer>
+
+  <script src="cart.js"></script>
+</body>
+</html>
